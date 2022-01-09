@@ -427,19 +427,7 @@ public class Kehadiran extends javax.swing.JFrame {
     private void btnUbahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUbahActionPerformed
         // TODO add your handling code here:     
             String SQL = "UPDATE kehadiran SET nip=?,nama=?,jabatan=?,absen=?,keterangan=? WHERE nama="+txtNama.getText()+"";
-//            try{
-//                 PreparedStatement stat = .prepareStatement(SQL);
-//            }
-//            Statement com = Connect().createStatement();
-//            com.executeUpdate(SQL);           
-//            com.close();
-//            Connect().close();
-//            JOptionPane.showMessageDialog(null, "berhasil edit");
-//           
-//        }catch(Exception exc){
-//            System.err.println(exc.getMessage());
-//        }
-//        }
+  
     }//GEN-LAST:event_btnUbahActionPerformed
 
     private void btnKeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKeluarActionPerformed
